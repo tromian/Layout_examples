@@ -7,9 +7,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView textView;
-    private Button button1;
-    private Button button2;
+
 
 
     @Override
@@ -17,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        button2 = findViewById(R.id.button2);
-        textView = findViewById(R.id.textView);
 
 
     }
