@@ -15,7 +15,7 @@
     <TextView
         android:id="@+id/user_name_text_view"
         android:layout_below="@id/user_image_view"
-        style="@style/TextView.Primary"
+        style="@style/TextView.Primary.Header"
         android:text="Name"
         />
     <TextView
@@ -31,24 +31,48 @@
         android:text="Description"
         />
     <TextView
+        android:id="@+id/user_location_icon_view"
+        android:layout_below="@id/user_description_text_view"
+        style="@style/TextIcon"
+        android:text="@string/fa_map_marker"
+        />
+    <TextView
         android:id="@+id/user_location_text_view"
         android:layout_below="@id/user_description_text_view"
         style="@style/TextView.Secondary"
+        android:layout_toEndOf="@id/user_location_icon_view"
+        android:layout_marginStart="10dp"
         android:text="Location"
         />
 
     <TextView
+        android:id="@+id/user_following_count_folowing"
+        android:layout_below="@id/user_location_text_view"
+        style="@style/TextView.Primary.Bold"
+        android:text="4"
+        />
+    <TextView
         android:id="@+id/user_following_text_view"
         android:layout_below="@id/user_location_text_view"
         style="@style/TextView.Secondary"
+        android:layout_toEndOf="@id/user_following_count_folowing"
+        android:layout_marginStart="5dp"
         android:text="Following"
             />
     <TextView
+        android:id="@+id/user_following_count_folowers"
+        android:layout_below="@id/user_location_text_view"
+        style="@style/TextView.Primary.Bold"
+        android:layout_toEndOf="@id/user_following_text_view"
+        android:layout_marginStart="5dp"
+        android:text="6"
+        />
+    <TextView
         android:id="@+id/user_followers_text_view"
         android:layout_below="@id/user_location_text_view"
-        android:layout_toEndOf="@id/user_following_text_view"
+        android:layout_toEndOf="@id/user_following_count_folowers"
         style="@style/TextView.Secondary"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="5dp"
         android:text="Followers"
             />
 

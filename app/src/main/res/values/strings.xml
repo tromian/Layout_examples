@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyApp1</string>
     <string name="text">Text View</string>
+    <string name="fa_map_marker">\uf041</string>
 </resources>
