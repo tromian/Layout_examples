@@ -15,59 +15,41 @@
     <TextView
         android:id="@+id/user_name_text_view"
         android:layout_below="@id/user_image_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textSize="16sp"
+        style="@style/TextView.Primary"
         android:text="Name"
         />
     <TextView
         android:id="@+id/user_nickname_text_view"
         android:layout_below="@id/user_name_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textSize="16sp"
+        style="@style/TextView.Secondary"
         android:text="Nick"
         />
     <TextView
         android:id="@+id/user_description_text_view"
         android:layout_below="@id/user_nickname_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textSize="16sp"
+        style="@style/TextView.Primary"
         android:text="Description"
         />
     <TextView
         android:id="@+id/user_location_text_view"
         android:layout_below="@id/user_description_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textSize="16sp"
+        style="@style/TextView.Secondary"
         android:text="Location"
         />
 
     <TextView
-            android:id="@+id/user_following_text_view"
-            android:layout_below="@id/user_location_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textSize="16sp"
-            android:text="Following"
+        android:id="@+id/user_following_text_view"
+        android:layout_below="@id/user_location_text_view"
+        style="@style/TextView.Secondary"
+        android:text="Following"
             />
     <TextView
-            android:id="@+id/user_followers_text_view"
-            android:layout_below="@id/user_location_text_view"
-            android:layout_toEndOf="@id/user_following_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textSize="16sp"
-            android:layout_marginStart="10dp"
-            android:text="Followers"
+        android:id="@+id/user_followers_text_view"
+        android:layout_below="@id/user_location_text_view"
+        android:layout_toEndOf="@id/user_following_text_view"
+        style="@style/TextView.Secondary"
+        android:layout_marginStart="10dp"
+        android:text="Followers"
             />
 
 
